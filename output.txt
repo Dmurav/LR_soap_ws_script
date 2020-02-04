@@ -1,0 +1,41 @@
+Virtual User Script started at: 04.02.2020 23:33:20
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(70): Web service call "NDFDgen_101" started
+Action.c(70): Web service call "NDFDgen_101" was successful
+Action.c(149): "lr_xml_extract" succeeded, 1 match processed
+Action.c(169): "lr_xml_extract" succeeded, 1 match processed
+Action.c(174): "lr_xml_extract" succeeded, 1 match processed
+Action.c(179): maxTemp: 44
+Action.c(180): maxHumidity: 89
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(70): Web service call "NDFDgen_101" started
+Action.c(70): Web service call "NDFDgen_101" was successful
+Action.c(149): "lr_xml_extract" succeeded, 1 match processed
+Action.c(169): "lr_xml_extract" succeeded, 1 match processed
+Action.c(174): "lr_xml_extract" succeeded, 1 match processed
+Action.c(179): maxTemp: -14
+Action.c(180): maxHumidity: 71
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Starting action Action.
+Action.c(70): Web service call "NDFDgen_101" started
+Action.c(70): Web service call "NDFDgen_101" was successful
+Action.c(149): "lr_xml_extract" succeeded, 1 match processed
+Action.c(169): "lr_xml_extract" succeeded, 1 match processed
+Action.c(174): "lr_xml_extract" succeeded, 1 match processed
+Action.c(179): maxTemp: 67
+Action.c(180): maxHumidity: 61
+Ending action Action.
+Ending iteration 3.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

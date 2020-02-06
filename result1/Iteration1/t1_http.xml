@@ -6,98 +6,33 @@
 Content-Type: text/xml; charset=utf-8
 Accept: application/soap+xml, application/dime, multipart/related, text/*
 User-Agent: Axis/1.3
-SOAPAction: https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#NDFDgen
+SOAPAction: https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#LatLonListCityNames
 Cache-Control: no-cache
 Pragma: no-cache
 Accept-Encoding: gzip, deflate
 Connection: Keep-Alive
 Host: graphical.weather.gov
-Content-Length: 1975
+Content-Length: 480
 
 </header>
       <body>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
   &lt;soapenv:Body&gt;
-    &lt;ns1:NDFDgen soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns1="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl"&gt;
-      &lt;latitude&gt;40.78&lt;/latitude&gt;
-      &lt;longitude&gt;-111.97&lt;/longitude&gt;
-      &lt;product&gt;time-series&lt;/product&gt;
-      &lt;startTime&gt;2020-02-07T07:00:00.000Z&lt;/startTime&gt;
-      &lt;endTime&gt;2020-02-07T08:00:00.000Z&lt;/endTime&gt;
-      &lt;Unit&gt;
-      &lt;/Unit&gt;
-      &lt;weatherParameters&gt;
-        &lt;maxt&gt;true&lt;/maxt&gt;
-        &lt;mint&gt;true&lt;/mint&gt;
-        &lt;temp&gt;false&lt;/temp&gt;
-        &lt;dew&gt;true&lt;/dew&gt;
-        &lt;pop12&gt;false&lt;/pop12&gt;
-        &lt;qpf&gt;false&lt;/qpf&gt;
-        &lt;sky&gt;false&lt;/sky&gt;
-        &lt;snow&gt;false&lt;/snow&gt;
-        &lt;wspd&gt;true&lt;/wspd&gt;
-        &lt;wdir&gt;false&lt;/wdir&gt;
-        &lt;wx&gt;false&lt;/wx&gt;
-        &lt;waveh&gt;false&lt;/waveh&gt;
-        &lt;icons&gt;false&lt;/icons&gt;
-        &lt;rh&gt;true&lt;/rh&gt;
-        &lt;appt&gt;false&lt;/appt&gt;
-        &lt;incw34&gt;false&lt;/incw34&gt;
-        &lt;incw50&gt;false&lt;/incw50&gt;
-        &lt;incw64&gt;false&lt;/incw64&gt;
-        &lt;cumw34&gt;false&lt;/cumw34&gt;
-        &lt;cumw50&gt;false&lt;/cumw50&gt;
-        &lt;cumw64&gt;false&lt;/cumw64&gt;
-        &lt;critfireo&gt;false&lt;/critfireo&gt;
-        &lt;dryfireo&gt;false&lt;/dryfireo&gt;
-        &lt;conhazo&gt;false&lt;/conhazo&gt;
-        &lt;ptornado&gt;false&lt;/ptornado&gt;
-        &lt;phail&gt;false&lt;/phail&gt;
-        &lt;ptstmwinds&gt;false&lt;/ptstmwinds&gt;
-        &lt;pxtornado&gt;false&lt;/pxtornado&gt;
-        &lt;pxhail&gt;false&lt;/pxhail&gt;
-        &lt;pxtstmwinds&gt;false&lt;/pxtstmwinds&gt;
-        &lt;ptotsvrtstm&gt;false&lt;/ptotsvrtstm&gt;
-        &lt;pxtotsvrtstm&gt;false&lt;/pxtotsvrtstm&gt;
-        &lt;tmpabv14d&gt;false&lt;/tmpabv14d&gt;
-        &lt;tmpblw14d&gt;false&lt;/tmpblw14d&gt;
-        &lt;tmpabv30d&gt;false&lt;/tmpabv30d&gt;
-        &lt;tmpblw30d&gt;false&lt;/tmpblw30d&gt;
-        &lt;tmpabv90d&gt;false&lt;/tmpabv90d&gt;
-        &lt;tmpblw90d&gt;false&lt;/tmpblw90d&gt;
-        &lt;prcpabv14d&gt;false&lt;/prcpabv14d&gt;
-        &lt;prcpblw14d&gt;false&lt;/prcpblw14d&gt;
-        &lt;prcpabv30d&gt;false&lt;/prcpabv30d&gt;
-        &lt;prcpblw30d&gt;false&lt;/prcpblw30d&gt;
-        &lt;prcpabv90d&gt;false&lt;/prcpabv90d&gt;
-        &lt;prcpblw90d&gt;false&lt;/prcpblw90d&gt;
-        &lt;precipa_r&gt;false&lt;/precipa_r&gt;
-        &lt;sky_r&gt;false&lt;/sky_r&gt;
-        &lt;td_r&gt;false&lt;/td_r&gt;
-        &lt;temp_r&gt;false&lt;/temp_r&gt;
-        &lt;wdir_r&gt;false&lt;/wdir_r&gt;
-        &lt;wspd_r&gt;false&lt;/wspd_r&gt;
-        &lt;wwa&gt;false&lt;/wwa&gt;
-        &lt;tstmprb&gt;false&lt;/tstmprb&gt;
-        &lt;tstmcat&gt;false&lt;/tstmcat&gt;
-        &lt;wgust&gt;false&lt;/wgust&gt;
-        &lt;iceaccum&gt;false&lt;/iceaccum&gt;
-        &lt;maxrh&gt;false&lt;/maxrh&gt;
-        &lt;minrh&gt;false&lt;/minrh&gt;
-      &lt;/weatherParameters&gt;
-    &lt;/ns1:NDFDgen&gt;
+    &lt;ns1:LatLonListCityNames soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns1="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl"&gt;
+      &lt;displayLevel&gt;1&lt;/displayLevel&gt;
+    &lt;/ns1:LatLonListCityNames&gt;
   &lt;/soapenv:Body&gt;
 &lt;/soapenv:Envelope&gt;</body>
     </request>
     <response>
       <header>HTTP/1.1 200 OK
 Server: Apache
-X-NIDS-ServerID: www4.mo
+X-NIDS-ServerID: www5.md
 X-SOAP-Server: NuSOAP/0.9.5 (1.123)
 Content-Encoding: gzip
-Content-Length: 1864
+Content-Length: 1538
 Content-Type: text/xml; charset=ISO-8859-1
-Date: Tue, 04 Feb 2020 20:33:24 GMT
+Date: Thu, 06 Feb 2020 12:47:38 GMT
 Connection: keep-alive
 Vary: Accept-Encoding
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
@@ -106,189 +41,14 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
       <body>&lt;?xml version="1.0" encoding="ISO-8859-1"?&gt;
 &lt;SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"&gt;
   &lt;SOAP-ENV:Body&gt;
-    &lt;ns1:NDFDgenResponse xmlns:ns1="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl"&gt;
-      &lt;dwmlOut xsi:type="xsd:string"&gt;&amp;lt;?xml version="1.0"?&amp;gt;
-&amp;lt;dwml version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://graphical.weather.gov/xml/DWMLgen/schema/DWML.xsd"&amp;gt;
-  &amp;lt;head&amp;gt;
-    &amp;lt;product srsName="WGS 1984" concise-name="time-series" operational-mode="official"&amp;gt;
-      &amp;lt;title&amp;gt;NOAA's National Weather Service Real Time Mesoscale Analysis And Forecast Data&amp;lt;/title&amp;gt;
-      &amp;lt;field&amp;gt;meteorological&amp;lt;/field&amp;gt;
-      &amp;lt;category&amp;gt;analysis and forecast&amp;lt;/category&amp;gt;
-      &amp;lt;creation-date refresh-frequency="PT1H"&amp;gt;2020-02-04T20:33:24Z&amp;lt;/creation-date&amp;gt;
-    &amp;lt;/product&amp;gt;
-    &amp;lt;source&amp;gt;
-      &amp;lt;more-information&amp;gt;http://products.weather.gov/search.php&amp;lt;/more-information&amp;gt;
-      &amp;lt;production-center&amp;gt;Meteorological Development Laboratory&amp;lt;sub-center&amp;gt;Product Generation Branch&amp;lt;/sub-center&amp;gt;&amp;lt;/production-center&amp;gt;
-      &amp;lt;disclaimer&amp;gt;http://www.nws.noaa.gov/disclaimer.html&amp;lt;/disclaimer&amp;gt;
-      &amp;lt;credit&amp;gt;https://www.weather.gov/&amp;lt;/credit&amp;gt;
-      &amp;lt;credit-logo&amp;gt;https://www.weather.gov/logorequest&amp;lt;/credit-logo&amp;gt;
-      &amp;lt;feedback&amp;gt;https://www.weather.gov/contact&amp;lt;/feedback&amp;gt;
-    &amp;lt;/source&amp;gt;
-  &amp;lt;/head&amp;gt;
-  &amp;lt;data&amp;gt;
-    &amp;lt;location&amp;gt;
-      &amp;lt;location-key&amp;gt;point1&amp;lt;/location-key&amp;gt;
-      &amp;lt;point latitude="40.78" longitude="-111.97"/&amp;gt;
-    &amp;lt;/location&amp;gt;
-    &amp;lt;moreWeatherInformation applicable-location="point1"&amp;gt;https://forecast-v3.weather.gov/point/40.78,-111.97&amp;lt;/moreWeatherInformation&amp;gt;
-    &amp;lt;time-layout time-coordinate="local" summarization="none"&amp;gt;
-      &amp;lt;layout-key&amp;gt;k-p24h-n1-1&amp;lt;/layout-key&amp;gt;
-      &amp;lt;start-valid-time&amp;gt;2020-02-07T07:00:00-07:00&amp;lt;/start-valid-time&amp;gt;
-      &amp;lt;end-valid-time&amp;gt;2020-02-07T19:00:00-07:00&amp;lt;/end-valid-time&amp;gt;
-    &amp;lt;/time-layout&amp;gt;
-    &amp;lt;time-layout time-coordinate="local" summarization="none"&amp;gt;
-      &amp;lt;layout-key&amp;gt;k-p12h-n1-2&amp;lt;/layout-key&amp;gt;
-      &amp;lt;start-valid-time&amp;gt;2020-02-07T05:00:00-07:00&amp;lt;/start-valid-time&amp;gt;
-      &amp;lt;end-valid-time&amp;gt;2020-02-07T17:00:00-07:00&amp;lt;/end-valid-time&amp;gt;
-    &amp;lt;/time-layout&amp;gt;
-    &amp;lt;time-layout time-coordinate="local" summarization="none"&amp;gt;
-      &amp;lt;layout-key&amp;gt;k-p12h-n1-3&amp;lt;/layout-key&amp;gt;
-      &amp;lt;start-valid-time&amp;gt;2020-02-07T11:00:00-07:00&amp;lt;/start-valid-time&amp;gt;
-    &amp;lt;/time-layout&amp;gt;
-    &amp;lt;time-layout time-coordinate="local" summarization="none"&amp;gt;
-      &amp;lt;layout-key&amp;gt;k-p6h-n1-4&amp;lt;/layout-key&amp;gt;
-      &amp;lt;start-valid-time&amp;gt;2020-02-07T05:00:00-07:00&amp;lt;/start-valid-time&amp;gt;
-      &amp;lt;end-valid-time&amp;gt;2020-02-07T11:00:00-07:00&amp;lt;/end-valid-time&amp;gt;
-    &amp;lt;/time-layout&amp;gt;
-    &amp;lt;time-layout time-coordinate="local" summarization="none"&amp;gt;
-      &amp;lt;layout-key&amp;gt;k-p24h-n1-5&amp;lt;/layout-key&amp;gt;
-      &amp;lt;start-valid-time&amp;gt;2020-02-07T05:00:00-07:00&amp;lt;/start-valid-time&amp;gt;
-      &amp;lt;end-valid-time&amp;gt;2020-02-08T05:00:00-07:00&amp;lt;/end-valid-time&amp;gt;
-    &amp;lt;/time-layout&amp;gt;
-    &amp;lt;time-layout time-coordinate="local" summarization="none"&amp;gt;
-      &amp;lt;layout-key&amp;gt;k-p1m-n1-6&amp;lt;/layout-key&amp;gt;
-      &amp;lt;start-valid-time&amp;gt;2020-01-31T17:00:00-07:00&amp;lt;/start-valid-time&amp;gt;
-      &amp;lt;end-valid-time&amp;gt;2020-02-29T17:00:00-07:00&amp;lt;/end-valid-time&amp;gt;
-    &amp;lt;/time-layout&amp;gt;
-    &amp;lt;time-layout time-coordinate="local" summarization="none"&amp;gt;
-      &amp;lt;layout-key&amp;gt;k-p3m-n1-7&amp;lt;/layout-key&amp;gt;
-      &amp;lt;start-valid-time&amp;gt;2020-01-31T17:00:00-07:00&amp;lt;/start-valid-time&amp;gt;
-      &amp;lt;end-valid-time&amp;gt;2020-04-30T18:00:00-06:00&amp;lt;/end-valid-time&amp;gt;
-    &amp;lt;/time-layout&amp;gt;
-    &amp;lt;time-layout time-coordinate="local" summarization="none"&amp;gt;
-      &amp;lt;layout-key&amp;gt;k-p24h-n1-8&amp;lt;/layout-key&amp;gt;
-      &amp;lt;start-valid-time&amp;gt;2020-02-07T07:00:00-07:00&amp;lt;/start-valid-time&amp;gt;
-      &amp;lt;end-valid-time&amp;gt;2020-02-07T19:00:00-07:00&amp;lt;/end-valid-time&amp;gt;
-    &amp;lt;/time-layout&amp;gt;
-    &amp;lt;time-layout time-coordinate="local" summarization="none"&amp;gt;
-      &amp;lt;layout-key&amp;gt;k-p24h-n1-9&amp;lt;/layout-key&amp;gt;
-      &amp;lt;start-valid-time&amp;gt;2020-02-06T19:00:00-07:00&amp;lt;/start-valid-time&amp;gt;
-      &amp;lt;end-valid-time&amp;gt;2020-02-07T08:00:00-07:00&amp;lt;/end-valid-time&amp;gt;
-    &amp;lt;/time-layout&amp;gt;
-    &amp;lt;parameters applicable-location="point1"&amp;gt;
-      &amp;lt;temperature type="maximum" units="Fahrenheit" time-layout="k-p24h-n1-1"&amp;gt;
-        &amp;lt;name&amp;gt;Daily Maximum Temperature&amp;lt;/name&amp;gt;
-        &amp;lt;value&amp;gt;44&amp;lt;/value&amp;gt;
-      &amp;lt;/temperature&amp;gt;
-      &amp;lt;probability-of-precipitation type="12 hour" units="percent" time-layout="k-p12h-n1-2"&amp;gt;
-        &amp;lt;name&amp;gt;12 Hourly Probability of Precipitation&amp;lt;/name&amp;gt;
-        &amp;lt;value&amp;gt;49&amp;lt;/value&amp;gt;
-      &amp;lt;/probability-of-precipitation&amp;gt;
-      &amp;lt;fire-weather type="risk from wind and relative humidity" time-layout="k-p24h-n1-5"&amp;gt;
-        &amp;lt;name&amp;gt;Fire Weather Outlook from Wind and Relative Humidity&amp;lt;/name&amp;gt;
-        &amp;lt;value&amp;gt;No Areas&amp;lt;/value&amp;gt;
-      &amp;lt;/fire-weather&amp;gt;
-      &amp;lt;fire-weather type="risk from dry thunderstorms" time-layout="k-p24h-n1-5"&amp;gt;
-        &amp;lt;name&amp;gt;Fire Weather Outlook from Dry Thunderstorms&amp;lt;/name&amp;gt;
-        &amp;lt;value&amp;gt;No Areas&amp;lt;/value&amp;gt;
-      &amp;lt;/fire-weather&amp;gt;
-      &amp;lt;convective-hazard&amp;gt;
-        &amp;lt;severe-component type="severe thunderstorms" units="percent" time-layout="k-p24h-n1-5"&amp;gt;
-          &amp;lt;name&amp;gt;Total Probability of Severe Thunderstorms&amp;lt;/name&amp;gt;
-          &amp;lt;value&amp;gt;0&amp;lt;/value&amp;gt;
-        &amp;lt;/severe-component&amp;gt;
-      &amp;lt;/convective-hazard&amp;gt;
-      &amp;lt;climate-anomaly&amp;gt;
-        &amp;lt;monthly type="average temperature above normal" units="percent" time-layout="k-p1m-n1-6"&amp;gt;
-          &amp;lt;name&amp;gt;Probability of One-Month Average Temperature Above Normal&amp;lt;/name&amp;gt;
-          &amp;lt;value&amp;gt;33&amp;lt;/value&amp;gt;
-        &amp;lt;/monthly&amp;gt;
-      &amp;lt;/climate-anomaly&amp;gt;
-      &amp;lt;climate-anomaly&amp;gt;
-        &amp;lt;monthly type="average temperature below normal" units="percent" time-layout="k-p1m-n1-6"&amp;gt;
-          &amp;lt;name&amp;gt;Probability of One-Month Average Temperature Below Normal&amp;lt;/name&amp;gt;
-          &amp;lt;value&amp;gt;33&amp;lt;/value&amp;gt;
-        &amp;lt;/monthly&amp;gt;
-      &amp;lt;/climate-anomaly&amp;gt;
-      &amp;lt;climate-anomaly&amp;gt;
-        &amp;lt;monthly type="average precipitation above normal" units="percent" time-layout="k-p1m-n1-6"&amp;gt;
-          &amp;lt;name&amp;gt;Probability of One-Month Average Precipitation Above Normal&amp;lt;/name&amp;gt;
-          &amp;lt;value&amp;gt;33&amp;lt;/value&amp;gt;
-        &amp;lt;/monthly&amp;gt;
-      &amp;lt;/climate-anomaly&amp;gt;
-      &amp;lt;climate-anomaly&amp;gt;
-        &amp;lt;monthly type="average precipitation below normal" units="percent" time-layout="k-p1m-n1-6"&amp;gt;
-          &amp;lt;name&amp;gt;Probability of One-Month Average Precipitation Below Normal&amp;lt;/name&amp;gt;
-          &amp;lt;value&amp;gt;33&amp;lt;/value&amp;gt;
-        &amp;lt;/monthly&amp;gt;
-      &amp;lt;/climate-anomaly&amp;gt;
-      &amp;lt;climate-anomaly&amp;gt;
-        &amp;lt;seasonal type="average temperature above normal" units="percent" time-layout="k-p3m-n1-7"&amp;gt;
-          &amp;lt;name&amp;gt;Probability of Three-Month Average Temperature Above Normal&amp;lt;/name&amp;gt;
-          &amp;lt;value&amp;gt;41&amp;lt;/value&amp;gt;
-        &amp;lt;/seasonal&amp;gt;
-      &amp;lt;/climate-anomaly&amp;gt;
-      &amp;lt;climate-anomaly&amp;gt;
-        &amp;lt;seasonal type="average temperature below normal" units="percent" time-layout="k-p3m-n1-7"&amp;gt;
-          &amp;lt;name&amp;gt;Probability of Three-Month Average Temperature Below Normal&amp;lt;/name&amp;gt;
-          &amp;lt;value&amp;gt;26&amp;lt;/value&amp;gt;
-        &amp;lt;/seasonal&amp;gt;
-      &amp;lt;/climate-anomaly&amp;gt;
-      &amp;lt;climate-anomaly&amp;gt;
-        &amp;lt;seasonal type="average precipitation above normal" units="percent" time-layout="k-p3m-n1-7"&amp;gt;
-          &amp;lt;name&amp;gt;Probability of Three-Month Average Precipitation Above Normal&amp;lt;/name&amp;gt;
-          &amp;lt;value&amp;gt;34&amp;lt;/value&amp;gt;
-        &amp;lt;/seasonal&amp;gt;
-      &amp;lt;/climate-anomaly&amp;gt;
-      &amp;lt;climate-anomaly&amp;gt;
-        &amp;lt;seasonal type="average precipitation below normal" units="percent" time-layout="k-p3m-n1-7"&amp;gt;
-          &amp;lt;name&amp;gt;Probability of Three-Month Average Precipitation Below Normal&amp;lt;/name&amp;gt;
-          &amp;lt;value&amp;gt;34&amp;lt;/value&amp;gt;
-        &amp;lt;/seasonal&amp;gt;
-      &amp;lt;/climate-anomaly&amp;gt;
-      &amp;lt;wind-speed type="incremental34" units="percent" time-layout="k-p6h-n1-4"&amp;gt;
-        &amp;lt;name&amp;gt;Probability of a Tropical Cyclone Wind Speed above 34 Knots (Incremental)&amp;lt;/name&amp;gt;
-        &amp;lt;value xsi:nil="true"/&amp;gt;
-      &amp;lt;/wind-speed&amp;gt;
-      &amp;lt;wind-speed type="incremental50" units="percent" time-layout="k-p6h-n1-4"&amp;gt;
-        &amp;lt;name&amp;gt;Probability of a Tropical Cyclone Wind Speed above 50 Knots (Incremental)&amp;lt;/name&amp;gt;
-        &amp;lt;value xsi:nil="true"/&amp;gt;
-      &amp;lt;/wind-speed&amp;gt;
-      &amp;lt;wind-speed type="incremental64" units="percent" time-layout="k-p6h-n1-4"&amp;gt;
-        &amp;lt;name&amp;gt;Probability of a Tropical Cyclone Wind Speed above 64 Knots (Incremental)&amp;lt;/name&amp;gt;
-        &amp;lt;value xsi:nil="true"/&amp;gt;
-      &amp;lt;/wind-speed&amp;gt;
-      &amp;lt;wind-speed type="cumulative34" units="percent" time-layout="k-p6h-n1-4"&amp;gt;
-        &amp;lt;name&amp;gt;Probability of a Tropical Cyclone Wind Speed above 34 Knots (Cumulative)&amp;lt;/name&amp;gt;
-        &amp;lt;value xsi:nil="true"/&amp;gt;
-      &amp;lt;/wind-speed&amp;gt;
-      &amp;lt;wind-speed type="cumulative50" units="percent" time-layout="k-p6h-n1-4"&amp;gt;
-        &amp;lt;name&amp;gt;Probability of a Tropical Cyclone Wind Speed above 50 Knots (Cumulative)&amp;lt;/name&amp;gt;
-        &amp;lt;value xsi:nil="true"/&amp;gt;
-      &amp;lt;/wind-speed&amp;gt;
-      &amp;lt;wind-speed type="cumulative64" units="percent" time-layout="k-p6h-n1-4"&amp;gt;
-        &amp;lt;name&amp;gt;Probability of a Tropical Cyclone Wind Speed above 64 Knots (Cumulative)&amp;lt;/name&amp;gt;
-        &amp;lt;value xsi:nil="true"/&amp;gt;
-      &amp;lt;/wind-speed&amp;gt;
-      &amp;lt;humidity type="maximum relative" units="percent" time-layout="k-p24h-n1-8"&amp;gt;
-        &amp;lt;name&amp;gt;Daily Maximum Relative Humidity&amp;lt;/name&amp;gt;
-        &amp;lt;value&amp;gt;89&amp;lt;/value&amp;gt;
-      &amp;lt;/humidity&amp;gt;
-      &amp;lt;humidity type="minimum relative" units="percent" time-layout="k-p24h-n1-9"&amp;gt;
-        &amp;lt;name&amp;gt;Daily Minimum Relative Humidity&amp;lt;/name&amp;gt;
-        &amp;lt;value&amp;gt;71&amp;lt;/value&amp;gt;
-      &amp;lt;/humidity&amp;gt;
-      &amp;lt;water-state time-layout="k-p12h-n1-3"&amp;gt;
-        &amp;lt;waves type="significant" units="feet"&amp;gt;
-          &amp;lt;name&amp;gt;Wave Height&amp;lt;/name&amp;gt;
-          &amp;lt;value xsi:nil="true"/&amp;gt;
-        &amp;lt;/waves&amp;gt;
-      &amp;lt;/water-state&amp;gt;
-    &amp;lt;/parameters&amp;gt;
-  &amp;lt;/data&amp;gt;
+    &lt;ns1:LatLonListCityNamesResponse xmlns:ns1="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl"&gt;
+      &lt;listLatLonOut xsi:type="xsd:string"&gt;&amp;lt;?xml version='1.0' ?&amp;gt;
+&amp;lt;dwml version='1.0' xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://graphical.weather.gov/xml/DWMLgen/schema/DWML.xsd"&amp;gt;
+&amp;lt;latLonList&amp;gt;35.4,-97.6 36.2,-95.9 35.82,-83.98 33.65,-84.42 39.5,-119.78 35.13,-111.67 33.44,-112.02 32.12,-110.93 35.60,-88.92 35.22,-92.38 34.027,-118.329 32.73,-117.17 38.29,-104.52 39.75,-104.87 38.85,-77.04 24.58,-81.75 25.80,-80.28 28.55,-81.33 27.97,-82.53 43.57,-116.22 41.98,-87.9 39.85,-89.67 39.37,-101.7 37.07,-88.77 30.03,-90.03 44.801,-68.778 46.861,-68.012 43.65,-70.32 39.18,-76.67 42.23,-83.33 46.54,-87.41 46.83,-92.18 44.88,-93.22 34.27,-88.77 38.75,-90.37 45.8,-108.53 45.95,-112.5 48.22,-106.62 46.92,-114.08 40.83,-115.78 36.08,-115.17 35.05,-106.6 42.75,-73.8 42.93,-78.73 43.12,-76.12 40.77,-73.98 46.77,-100.75 46.9,-96.8 48.27,-101.28 41.42,-81.87 40.00,-82.88 41.6,-83.8 45.6,-122.6 42.08,-80.18 39.88,-75.25 40.35,-79.93 41.73,-72.65 43.58,-96.73 36.17,-86.78 30.3,-97.7 25.9,-97.43 32.9,-97.03 31.8,-106.4 32.00,-102.08 29.65,-95.28 29.53,-98.47 40.78,-111.97 47.63,-117.53 42.95,-87.9 37.5,-77.33 18.40,-66.00 18.34,-64.96 17.70,-64.90 61.17,-150.02 71.30,-156.78 64.82,-147.87 58.37,-134.58 64.50,-165.43&amp;lt;/latLonList&amp;gt;
+&amp;lt;cityNameList&amp;gt;Oklahoma City,OK|Tulsa,OK|Knoxville,TN|Atlanta,GA|Reno,NV|Flagstaff,AZ|Phoenix,AZ|Tucson,AZ|Jackson,TN|Little Rock,AR|Los Angeles,CA|San Diego,CA|Pueblo,CO|Denver,CO|Washington,DC|Key West,FL|Miami,FL|Orlando,FL|Tampa,FL|Boise,ID|Chicago,IL|Springfield,IL|Goodland,KS|Paducah,KY|New Orleans,LA|Bangor,ME|Caribou,ME|Portland,ME|Baltimore,MD|Detroit,MI|Marquette,MI|Duluth,MN|Minneapolis,MN|Tupelo,MS|St Louis,MO|Billings,MT|Butte,MT|Glasgow,MT|Missoula,MT|Elko,NV|Las Vegas,NV|Albuquerque,NM|Albany,NY|Buffalo,NY|Syracuse,NY|New York,NY|Bismarck,ND|Fargo,ND|Minot,ND|Cleveland,OH|Columbus,OH|Toledo,OH|Portland,OR|Erie,PA|Philadelphia,PA|Pittsburgh,PA|Hartford,CT|Sioux Falls,SD|Nashville,TN|Austin,TX|Brownsville,TX|Dallas,TX|El Paso,TX|Midland,TX|Houston,TX|San Antonio,TX|Salt Lake City,UT|Spokane,WA|Milwaukee,WI|Richmond,VA|San Juan,PR|St Thomas,VI|St Croix,VI|Anchorage,AK|Barrow,AK|Fairbanks,AK|Juneau,AK|Nome,AK&amp;lt;/cityNameList&amp;gt;
 &amp;lt;/dwml&amp;gt;
-&lt;/dwmlOut&gt;
-    &lt;/ns1:NDFDgenResponse&gt;
+&lt;/listLatLonOut&gt;
+    &lt;/ns1:LatLonListCityNamesResponse&gt;
   &lt;/SOAP-ENV:Body&gt;
 &lt;/SOAP-ENV:Envelope&gt;</body>
     </response>

@@ -52,9 +52,14 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order=
+Order="Get wether parametrs__*delimiter*__Get list of city"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
+[ManuallyExtraFiles]
+functions.h=
+[Transactions]
+"Get wether parametrs"=
+"Get list of city"=

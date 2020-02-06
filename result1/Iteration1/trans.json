@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "transactionName": "Get list of city",
+        "rawStartTime": 1580993254959,
+        "rawEndTime": 1580993258544
+    }
+]

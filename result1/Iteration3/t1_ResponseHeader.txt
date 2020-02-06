@@ -1,11 +1,11 @@
 HTTP/1.1 200 OK
 Server: Apache
-X-NIDS-ServerID: www4.mo
+X-NIDS-ServerID: www4.md
 X-SOAP-Server: NuSOAP/0.9.5 (1.123)
 Content-Encoding: gzip
-Content-Length: 1857
+Content-Length: 2470
 Content-Type: text/xml; charset=ISO-8859-1
-Date: Tue, 04 Feb 2020 20:33:32 GMT
+Date: Thu, 06 Feb 2020 12:47:46 GMT
 Connection: keep-alive
 Vary: Accept-Encoding
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload

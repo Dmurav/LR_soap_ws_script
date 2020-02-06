@@ -135,7 +135,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="04.02.2020 - 23:33:20" eTime="04.02.2020 - 23:33:20" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="06.02.2020 - 15:47:34" eTime="06.02.2020 - 15:47:34" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -144,15 +144,15 @@
 <Action rID="T4">
 <AName><![CDATA[Action]]></AName>
 <Step rID="T5">
-<Obj plainTxt="False" ><![CDATA[NDFDgen_101]]></Obj>
+<Obj plainTxt="False" ><![CDATA[Cities]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Web service call was successful</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:24]]></Time>
-<TimeTick>1580848404</TimeTick>
+<Time><![CDATA[06.02.2020 - 15:47:37]]></Time>
+<TimeTick>1580993257</TimeTick>
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[HTTP Traffic]]></Obj>
 <Details plainTxt="False" ><![CDATA[HTTP Traffic]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:24]]></Time>
-<TimeTick>1580848404</TimeTick>
+<Time><![CDATA[06.02.2020 - 15:47:37]]></Time>
+<TimeTick>1580993257</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="10" >
 <Disp><![CDATA[HTTP Traffic]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -161,7 +161,7 @@
 </NodeArgs>
 </Step>
 <NodeArgs eType="General" icon="4" nRep="9" status="Passed" >
-<Disp><![CDATA[NDFDgen_101]]></Disp>
+<Disp><![CDATA[Cities]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t0_web_service_call.inf]]></Path>
 </BtmPane>
@@ -170,55 +170,43 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA["lr_xml_extract"]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>"lr_xml_extract" succeeded</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:24]]></Time>
-<TimeTick>1580848404</TimeTick>
+<Time><![CDATA[06.02.2020 - 15:47:37]]></Time>
+<TimeTick>1580993257</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="11" status="Passed" >
 <Disp><![CDATA["lr_xml_extract"]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T8">
-<Obj plainTxt="False" ><![CDATA["lr_xml_extract"]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>"lr_xml_extract" succeeded</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:27]]></Time>
-<TimeTick>1580848407</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="12" status="Passed" >
-<Disp><![CDATA["lr_xml_extract"]]></Disp>
+<Obj plainTxt="False" ><![CDATA[lr_output_message]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Output message</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[06.02.2020 - 15:47:38]]></Time>
+<TimeTick>1580993258</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="12" status="Passed" >
+<Disp><![CDATA[lr_output_message]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t9982827.inf]]></Path>
+</BtmPane>
 </NodeArgs>
 </Step>
 <Step rID="T9">
 <Obj plainTxt="False" ><![CDATA["lr_xml_extract"]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>"lr_xml_extract" succeeded</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:27]]></Time>
-<TimeTick>1580848407</TimeTick>
+<Time><![CDATA[06.02.2020 - 15:47:38]]></Time>
+<TimeTick>1580993258</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="13" status="Passed" >
 <Disp><![CDATA["lr_xml_extract"]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T10">
-<Obj plainTxt="False" ><![CDATA[lr_output_message]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Output message</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:27]]></Time>
-<TimeTick>1580848407</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="14" status="Passed" >
-<Disp><![CDATA[lr_output_message]]></Disp>
-<BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration1\t67284165.inf]]></Path>
-</BtmPane>
+<Obj plainTxt="False" ><![CDATA["lr_xml_extract"]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>"lr_xml_extract" succeeded</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[06.02.2020 - 15:47:38]]></Time>
+<TimeTick>1580993258</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="14" status="Passed" >
+<Disp><![CDATA["lr_xml_extract"]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T11">
-<Obj plainTxt="False" ><![CDATA[lr_output_message]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Output message</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:27]]></Time>
-<TimeTick>1580848407</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="15" status="Passed" >
-<Disp><![CDATA[lr_output_message]]></Disp>
-<BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration1\t1162385.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Summary sTime="04.02.2020 - 23:33:20" eTime="04.02.2020 - 23:33:27" passed="6" failed="0" warnings="0" ></Summary>
+<Summary sTime="06.02.2020 - 15:47:34" eTime="06.02.2020 - 15:47:38" passed="5" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
@@ -227,38 +215,47 @@
 <Disp><![CDATA[SOAP_ws_script Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<DIter rID="T12" iterID="2" >
-<Action rID="T13">
+<DIter rID="T11" iterID="2" >
+<Action rID="T12">
 <AName><![CDATA[Action]]></AName>
-<Step rID="T14">
+<Step rID="T13">
 <Obj plainTxt="False" ><![CDATA[NDFDgen_101]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Web service call was successful</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:29]]></Time>
-<TimeTick>1580848409</TimeTick>
-<Step rID="T15">
+<Time><![CDATA[06.02.2020 - 15:47:40]]></Time>
+<TimeTick>1580993260</TimeTick>
+<Step rID="T14">
 <Obj plainTxt="False" ><![CDATA[HTTP Traffic]]></Obj>
 <Details plainTxt="False" ><![CDATA[HTTP Traffic]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:29]]></Time>
-<TimeTick>1580848409</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="21" >
+<Time><![CDATA[06.02.2020 - 15:47:40]]></Time>
+<TimeTick>1580993260</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="20" >
 <Disp><![CDATA[HTTP Traffic]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration2\t1_http.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<NodeArgs eType="General" icon="4" nRep="20" status="Passed" >
+<NodeArgs eType="General" icon="4" nRep="19" status="Passed" >
 <Disp><![CDATA[NDFDgen_101]]></Disp>
 <BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration2\t1162385_web_service_call.inf]]></Path>
+<Path><![CDATA[\Iteration2\t9982827_web_service_call.inf]]></Path>
 </BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T15">
+<Obj plainTxt="False" ><![CDATA["lr_xml_extract"]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>"lr_xml_extract" succeeded</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[06.02.2020 - 15:47:40]]></Time>
+<TimeTick>1580993260</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="21" status="Passed" >
+<Disp><![CDATA["lr_xml_extract"]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T16">
 <Obj plainTxt="False" ><![CDATA["lr_xml_extract"]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>"lr_xml_extract" succeeded</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:29]]></Time>
-<TimeTick>1580848409</TimeTick>
+<Time><![CDATA[06.02.2020 - 15:47:43]]></Time>
+<TimeTick>1580993263</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="22" status="Passed" >
 <Disp><![CDATA["lr_xml_extract"]]></Disp>
 </NodeArgs>
@@ -266,8 +263,8 @@
 <Step rID="T17">
 <Obj plainTxt="False" ><![CDATA["lr_xml_extract"]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>"lr_xml_extract" succeeded</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:31]]></Time>
-<TimeTick>1580848411</TimeTick>
+<Time><![CDATA[06.02.2020 - 15:47:43]]></Time>
+<TimeTick>1580993263</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="23" status="Passed" >
 <Disp><![CDATA["lr_xml_extract"]]></Disp>
 </NodeArgs>
@@ -275,140 +272,257 @@
 <Step rID="T18">
 <Obj plainTxt="False" ><![CDATA["lr_xml_extract"]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>"lr_xml_extract" succeeded</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:31]]></Time>
-<TimeTick>1580848411</TimeTick>
+<Time><![CDATA[06.02.2020 - 15:47:43]]></Time>
+<TimeTick>1580993263</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="24" status="Passed" >
 <Disp><![CDATA["lr_xml_extract"]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T19">
-<Obj plainTxt="False" ><![CDATA[lr_output_message]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Output message</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:31]]></Time>
-<TimeTick>1580848411</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="25" status="Passed" >
-<Disp><![CDATA[lr_output_message]]></Disp>
-<BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration2\t873167.inf]]></Path>
-</BtmPane>
+<Obj plainTxt="False" ><![CDATA["lr_xml_extract"]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>"lr_xml_extract" succeeded</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[06.02.2020 - 15:47:43]]></Time>
+<TimeTick>1580993263</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="25" status="Passed" >
+<Disp><![CDATA["lr_xml_extract"]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T20">
+<Obj plainTxt="False" ><![CDATA["lr_xml_extract"]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>"lr_xml_extract" succeeded</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[06.02.2020 - 15:47:43]]></Time>
+<TimeTick>1580993263</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="26" status="Passed" >
+<Disp><![CDATA["lr_xml_extract"]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T21">
 <Obj plainTxt="False" ><![CDATA[lr_output_message]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Output message</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:31]]></Time>
-<TimeTick>1580848411</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="26" status="Passed" >
+<Time><![CDATA[06.02.2020 - 15:47:43]]></Time>
+<TimeTick>1580993263</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="27" status="Passed" >
 <Disp><![CDATA[lr_output_message]]></Disp>
 <BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration2\t29251610.inf]]></Path>
+<Path><![CDATA[\Iteration2\t97932515.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="04.02.2020 - 23:33:27" eTime="04.02.2020 - 23:33:31" passed="6" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="19" status="Passed" >
+<Step rID="T22">
+<Obj plainTxt="False" ><![CDATA[lr_output_message]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Output message</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[06.02.2020 - 15:47:43]]></Time>
+<TimeTick>1580993263</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="28" status="Passed" >
+<Disp><![CDATA[lr_output_message]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration2\t75643972.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T23">
+<Obj plainTxt="False" ><![CDATA[lr_output_message]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Output message</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[06.02.2020 - 15:47:43]]></Time>
+<TimeTick>1580993263</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="29" status="Passed" >
+<Disp><![CDATA[lr_output_message]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration2\t2421835.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T24">
+<Obj plainTxt="False" ><![CDATA[lr_output_message]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Output message</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[06.02.2020 - 15:47:43]]></Time>
+<TimeTick>1580993263</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="30" status="Passed" >
+<Disp><![CDATA[lr_output_message]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration2\t7892731.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T25">
+<Obj plainTxt="False" ><![CDATA[lr_output_message]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Output message</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[06.02.2020 - 15:47:43]]></Time>
+<TimeTick>1580993263</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="31" status="Passed" >
+<Disp><![CDATA[lr_output_message]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration2\t63276395.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="06.02.2020 - 15:47:38" eTime="06.02.2020 - 15:47:44" passed="12" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="18" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
 </Action>
-<NodeArgs eType="StartIteration" icon="3" nRep="18" status="Passed" >
+<NodeArgs eType="StartIteration" icon="3" nRep="17" status="Passed" >
 <Disp><![CDATA[SOAP_ws_script Iteration 2 (Row 2)]]></Disp>
 </NodeArgs>
 </DIter>
-<DIter rID="T21" iterID="3" >
-<Action rID="T22">
+<DIter rID="T26" iterID="3" >
+<Action rID="T27">
 <AName><![CDATA[Action]]></AName>
-<Step rID="T23">
+<Step rID="T28">
 <Obj plainTxt="False" ><![CDATA[NDFDgen_101]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Web service call was successful</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:32]]></Time>
-<TimeTick>1580848412</TimeTick>
-<Step rID="T24">
+<Time><![CDATA[06.02.2020 - 15:47:46]]></Time>
+<TimeTick>1580993266</TimeTick>
+<Step rID="T29">
 <Obj plainTxt="False" ><![CDATA[HTTP Traffic]]></Obj>
 <Details plainTxt="False" ><![CDATA[HTTP Traffic]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:32]]></Time>
-<TimeTick>1580848412</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="32" >
+<Time><![CDATA[06.02.2020 - 15:47:46]]></Time>
+<TimeTick>1580993266</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="37" >
 <Disp><![CDATA[HTTP Traffic]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration3\t1_http.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<NodeArgs eType="General" icon="4" nRep="31" status="Passed" >
+<NodeArgs eType="General" icon="4" nRep="36" status="Passed" >
 <Disp><![CDATA[NDFDgen_101]]></Disp>
 <BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration3\t29251610_web_service_call.inf]]></Path>
+<Path><![CDATA[\Iteration3\t63276395_web_service_call.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T25">
+<Step rID="T30">
 <Obj plainTxt="False" ><![CDATA["lr_xml_extract"]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>"lr_xml_extract" succeeded</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:32]]></Time>
-<TimeTick>1580848412</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="33" status="Passed" >
+<Time><![CDATA[06.02.2020 - 15:47:46]]></Time>
+<TimeTick>1580993266</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="38" status="Passed" >
 <Disp><![CDATA["lr_xml_extract"]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T26">
+<Step rID="T31">
 <Obj plainTxt="False" ><![CDATA["lr_xml_extract"]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>"lr_xml_extract" succeeded</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:34]]></Time>
-<TimeTick>1580848414</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="34" status="Passed" >
+<Time><![CDATA[06.02.2020 - 15:47:49]]></Time>
+<TimeTick>1580993269</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="39" status="Passed" >
 <Disp><![CDATA["lr_xml_extract"]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T27">
+<Step rID="T32">
 <Obj plainTxt="False" ><![CDATA["lr_xml_extract"]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>"lr_xml_extract" succeeded</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:34]]></Time>
-<TimeTick>1580848414</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="35" status="Passed" >
+<Time><![CDATA[06.02.2020 - 15:47:49]]></Time>
+<TimeTick>1580993269</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="40" status="Passed" >
 <Disp><![CDATA["lr_xml_extract"]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T28">
+<Step rID="T33">
+<Obj plainTxt="False" ><![CDATA["lr_xml_extract"]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>"lr_xml_extract" succeeded</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[06.02.2020 - 15:47:49]]></Time>
+<TimeTick>1580993269</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="41" status="Passed" >
+<Disp><![CDATA["lr_xml_extract"]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T34">
+<Obj plainTxt="False" ><![CDATA["lr_xml_extract"]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>"lr_xml_extract" succeeded</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[06.02.2020 - 15:47:49]]></Time>
+<TimeTick>1580993269</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="42" status="Passed" >
+<Disp><![CDATA["lr_xml_extract"]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T35">
+<Obj plainTxt="False" ><![CDATA["lr_xml_extract"]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>"lr_xml_extract" succeeded</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[06.02.2020 - 15:47:49]]></Time>
+<TimeTick>1580993269</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="43" status="Passed" >
+<Disp><![CDATA["lr_xml_extract"]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T36">
 <Obj plainTxt="False" ><![CDATA[lr_output_message]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Output message</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:34]]></Time>
-<TimeTick>1580848414</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="36" status="Passed" >
+<Time><![CDATA[06.02.2020 - 15:47:49]]></Time>
+<TimeTick>1580993269</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="44" status="Passed" >
 <Disp><![CDATA[lr_output_message]]></Disp>
 <BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration3\t67457786.inf]]></Path>
+<Path><![CDATA[\Iteration3\t81817416.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T29">
+<Step rID="T37">
 <Obj plainTxt="False" ><![CDATA[lr_output_message]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Output message</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.02.2020 - 23:33:34]]></Time>
-<TimeTick>1580848414</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="37" status="Passed" >
+<Time><![CDATA[06.02.2020 - 15:47:49]]></Time>
+<TimeTick>1580993269</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="45" status="Passed" >
 <Disp><![CDATA[lr_output_message]]></Disp>
 <BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration3\t4125954.inf]]></Path>
+<Path><![CDATA[\Iteration3\t55475471.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="04.02.2020 - 23:33:31" eTime="04.02.2020 - 23:33:34" passed="6" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="30" status="Passed" >
+<Step rID="T38">
+<Obj plainTxt="False" ><![CDATA[lr_output_message]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Output message</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[06.02.2020 - 15:47:50]]></Time>
+<TimeTick>1580993270</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="46" status="Passed" >
+<Disp><![CDATA[lr_output_message]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration3\t9821196.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T39">
+<Obj plainTxt="False" ><![CDATA[lr_output_message]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Output message</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[06.02.2020 - 15:47:50]]></Time>
+<TimeTick>1580993270</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="47" status="Passed" >
+<Disp><![CDATA[lr_output_message]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration3\t22626924.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T40">
+<Obj plainTxt="False" ><![CDATA[lr_output_message]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Output message</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[06.02.2020 - 15:47:50]]></Time>
+<TimeTick>1580993270</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="48" status="Passed" >
+<Disp><![CDATA[lr_output_message]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration3\t49978763.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="06.02.2020 - 15:47:44" eTime="06.02.2020 - 15:47:50" passed="12" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="35" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
 </Action>
-<NodeArgs eType="StartIteration" icon="3" nRep="29" status="Passed" >
+<NodeArgs eType="StartIteration" icon="3" nRep="34" status="Passed" >
 <Disp><![CDATA[SOAP_ws_script Iteration 3 (Row 3)]]></Disp>
 </NodeArgs>
 </DIter>
-<Action rID="T30">
+<Action rID="T41">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="04.02.2020 - 23:33:34" eTime="04.02.2020 - 23:33:34" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="40" >
+<Summary sTime="06.02.2020 - 15:47:50" eTime="06.02.2020 - 15:47:50" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="51" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="04.02.2020 - 23:33:18" eTime="04.02.2020 - 23:33:35" passed="18" failed="0" warnings="0" ></Summary>
+<Summary sTime="06.02.2020 - 15:47:32" eTime="06.02.2020 - 15:47:51" passed="29" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test SOAP_ws_script Summary]]></Disp>
 </NodeArgs>

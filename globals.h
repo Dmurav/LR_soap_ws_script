@@ -11,6 +11,8 @@
 #include "web_api.h"
 #include "string.h"
 
+#include "functions.h"
+
 //--------------------------------------------------------------------
 // Global Variables
 
